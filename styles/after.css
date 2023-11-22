@@ -1,0 +1,54 @@
+body{
+  background: linear-gradient(#435B66, #363062);
+}
+
+.titulo-pagina{
+  margin: 3em;
+  padding: 3em;
+  text-align: center;
+  justify-content: center;
+  color: #B0A695;
+  font-size: 1.5em;
+}
+
+.subtitulo-pagina{
+  margin: 1.5em;
+  font-size: 1.3em;
+  color: #EFE1D1;
+}
+
+.secundario__imagem{
+  margin: 3em;
+  width: 54%;
+  height: 23em;
+  border-radius: 50%;
+}
+
+.secundario {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin: 0 10em;
+}
+
+.descricao__titulo {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 0.1em;
+  color: #B0A695;
+  margin-bottom: 9px;
+}
+
+.descricao__texto {
+  color: #EFE1D1;
+}
+
+.container__descricao {
+  padding: 2em;
+}
+
+.dispositivos {
+  text-align: center;
+  margin: 5em 0;
+}
+

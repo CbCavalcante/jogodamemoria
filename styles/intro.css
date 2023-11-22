@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(#435B66, #363062);
+}
+
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .membros-equipe{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #EFE1D1;
+  }
+
+  .lista-membros{
+    padding: 15px;
+    margin: 0px;
+  }
+
+  .nomes{
+    padding: 2px;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .login__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    color: #EFE1D1;
+  }
+
+  .login__header img {
+    width: 10rem;
+    border-radius:32%;
+    margin: 1em;
+  }
+
+  .login__header h1 {
+    color: #333;
+    font-size: 1.5em;
+  }
+
+  .login__input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .login__button {
+    background-color: #EFE1D1;
+    border: 4px solid #B9B4C7;
+    border-radius: 2em;
+    color: #19376D;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .login__button:hover{
+        transform: scale(1.1);
+        transition: all 1.5s;
+        background-color: #DDE6ED;
+        color: #19376D;
+  }
+
+  .login__button::after{
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+  .login__button:disabled {
+    background-color: #eee;
+    border: 2px solid #969595;
+    color: #aaa;
+    cursor: auto;
+  }
